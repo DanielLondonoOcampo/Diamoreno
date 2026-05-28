@@ -1,4 +1,4 @@
-import Image from '@/components/AppImage'
+import Image from 'next/image'
 
 export default function CTASection() {
   return (

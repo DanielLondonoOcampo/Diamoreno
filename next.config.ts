@@ -4,13 +4,11 @@ const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
   images: {
-    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './imageLoader.ts',
   },
   basePath: '/Diamoreno',
   assetPrefix: '/Diamoreno/',
-  env: {
-    NEXT_PUBLIC_BASE_PATH: '/Diamoreno',
-  },
 }
 
 export default nextConfig

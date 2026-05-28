@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import Image from '@/components/AppImage'
+import Image from 'next/image'
 
 const links = [
   { label: 'Inicio',    href: '#inicio' },
