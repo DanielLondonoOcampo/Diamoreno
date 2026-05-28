@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FAF6EE;
+  color: #2C1A0E;
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-brand-gold hover:bg-brand-gold-light text-white font-sans font-semibold px-7 py-3 rounded-full transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border-2 border-white text-white hover:bg-white hover:text-brand-green font-sans font-semibold px-7 py-3 rounded-full transition-all duration-200;
+  }
+
+  .section-title {
+    @apply font-display text-4xl md:text-5xl text-brand-green leading-tight;
+  }
+
+  .section-subtitle {
+    @apply font-sans text-brand-muted text-lg;
+  }
+}

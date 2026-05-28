@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Misc
+.DS_Store
+*.pem
+.env*
+!.env.example
+npm-debug.log*
+
+.claude/
+
+contenido_base/
