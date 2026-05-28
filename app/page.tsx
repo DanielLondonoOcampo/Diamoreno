@@ -7,7 +7,7 @@ import TestimonialsSection from '@/components/TestimonialsSection'
 import CTASection from '@/components/CTASection'
 import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
-
+{/* This is a comment inside JSX */}
 export default function Home() {
   return (
     <>
