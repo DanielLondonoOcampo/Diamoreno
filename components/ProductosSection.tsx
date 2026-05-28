@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from '@/components/AppImage'
 
 const precios = [
   { g: '25 g', precio: '$10.000' },

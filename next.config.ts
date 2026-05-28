@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
   },
   basePath: '/Diamoreno',
   assetPrefix: '/Diamoreno/',
+  env: {
+    NEXT_PUBLIC_BASE_PATH: '/Diamoreno',
+  },
 }
 
 export default nextConfig
