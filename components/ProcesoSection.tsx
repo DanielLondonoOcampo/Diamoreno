@@ -4,7 +4,7 @@ const pasos = [
   {
     num: '01',
     titulo: 'Selección',
-    desc: 'Solo fruta fresca colombiana en su punto óptimo de madurez.',
+    desc: 'Solo fruta fresca colombiana en su punto óptimo de maduración.',
   },
   {
     num: '02',

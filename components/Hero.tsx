@@ -31,7 +31,7 @@ export default function Hero() {
           {/* Headline */}
           <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-white leading-[1.1] mb-5 [text-shadow:0px_2px_12px_rgba(0,0,0,0.6)]">
             La fruta colombiana,<br />
-            <em className="not-italic text-brand-gold">preservada en su punto.</em>
+            <em className="not-italic text-brand-gold">deshidratada en su punto optimo de maduración.</em>
           </h1>
 
           {/* Subheadline */}

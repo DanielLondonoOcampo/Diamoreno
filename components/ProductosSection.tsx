@@ -18,7 +18,7 @@ const productos = [
   {
     img: '/images/producto-mango.jpg',
     nombre: 'Mango deshidratado',
-    descripcion: 'Rebanadas de mango Tommy seleccionadas en su punto exacto de madurez. Sabor concentrado, sin añadidos.',
+    descripcion: 'Rebanadas de mango Tommy seleccionadas en su punto exacto de maduración. Sabor concentrado, sin añadidos.',
     tag: 'Clásico',
     waHref: 'https://wa.me/573142923044?text=Hola,%20me%20interesa%20el%20Mango%20deshidratado%20DiaMoreno.%20%C2%BFQu%C3%A9%20presentaciones%20tienen%20disponibles%3F',
   },
