@@ -24,7 +24,7 @@ const config: Config = {
         sans:    ['var(--font-dm-sans)', 'system-ui', 'sans-serif'],
       },
       backgroundImage: {
-        'hero-overlay': 'linear-gradient(to right, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.15) 60%, transparent 100%)',
+        'hero-overlay': 'linear-gradient(to right, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.48) 55%, rgba(0,0,0,0.18) 100%)',
       },
     },
   },

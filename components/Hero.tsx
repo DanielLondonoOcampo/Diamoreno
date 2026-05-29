@@ -17,6 +17,8 @@ export default function Hero() {
 
       {/* Gradient overlay — left-to-right for legibility */}
       <div className="absolute inset-0 bg-hero-overlay" />
+      {/* Extra dark layer on mobile where the gradient direction doesn't protect text */}
+      <div className="absolute inset-0 bg-black/40 md:hidden" />
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-5 py-32 md:py-40">
@@ -27,13 +29,13 @@ export default function Hero() {
           </span>
 
           {/* Headline */}
-          <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-white leading-[1.1] mb-5">
+          <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-white leading-[1.1] mb-5 [text-shadow:0px_2px_12px_rgba(0,0,0,0.6)]">
             La fruta colombiana,<br />
             <em className="not-italic text-brand-gold">preservada en su punto.</em>
           </h1>
 
           {/* Subheadline */}
-          <p className="font-sans text-white/85 text-lg md:text-xl mb-8 leading-relaxed">
+          <p className="font-sans text-white/90 text-lg md:text-xl mb-8 leading-relaxed [text-shadow:0px_1px_8px_rgba(0,0,0,0.55)]">
             Snacks deshidratados sin conservantes ni azúcar añadida.
             Todo el sabor y la nutrición de la fruta fresca, listos para disfrutar.
           </p>
