@@ -14,7 +14,7 @@ const pasos = [
   {
     num: '03',
     titulo: 'Empaque',
-    desc: 'Bolsas resellables con estándares de higiene y calidad que garantizan frescura.',
+    desc: 'Bolsas resellables y sello de calor, con estándares de higiene y calidad que garantizan frescura.',
   },
 ]
 
@@ -50,7 +50,7 @@ export default function ProcesoSection() {
             <div className="relative rounded-2xl overflow-hidden row-span-2">
               <Image
                 src="/images/proceso-trabajadora.jpg"
-                alt="Trabajadora DiaMoreno en proceso de deshidratación"
+                alt="Trabajadora DíaMoreno en proceso de deshidratación"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 50vw, 25vw"
@@ -68,7 +68,7 @@ export default function ProcesoSection() {
             <div className="relative rounded-2xl overflow-hidden">
               <Image
                 src="/images/servido-miel.jpg"
-                alt="Fruta deshidratada DiaMoreno con miel"
+                alt="Fruta deshidratada DíaMoreno con miel"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 50vw, 25vw"

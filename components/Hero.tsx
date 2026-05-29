@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Background image */}
       <Image
         src="/images/hero-principal.jpg"
-        alt="DiaMoreno fruta deshidratada con miel"
+        alt="DíaMoreno fruta deshidratada con miel"
         fill
         className="object-cover object-center"
         priority
@@ -43,7 +43,7 @@ export default function Hero() {
           {/* CTAs */}
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://wa.me/573142923044?text=Hola,%20quiero%20hacer%20un%20pedido%20de%20fruta%20deshidratada%20DiaMoreno.%20%C2%BFQu%C3%A9%20opciones%20tienen%20disponibles%3F"
+              href="https://wa.me/573142923044?text=Hola,%20quiero%20hacer%20un%20pedido%20de%20fruta%20deshidratada%20DíaMoreno.%20%C2%BFQu%C3%A9%20opciones%20tienen%20disponibles%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-base"

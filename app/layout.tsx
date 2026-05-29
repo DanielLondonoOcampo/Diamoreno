@@ -17,12 +17,12 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'DiaMoreno Deshidratados — Fruta colombiana en su mejor momento',
+  title: 'DíaMoreno Deshidratados — Fruta colombiana en su mejor momento',
   description:
     'Fruta deshidratada 100% natural, sin conservantes ni azúcar añadida. Snack saludable hecho en Colombia con fruta fresca de calidad premium.',
   keywords: 'fruta deshidratada, snack saludable, Colombia, natural, mango, cítricos, mezcla',
   openGraph: {
-    title: 'DiaMoreno Deshidratados',
+    title: 'DíaMoreno Deshidratados',
     description: 'Fruta colombiana deshidratada, 100% natural.',
     type: 'website',
   },

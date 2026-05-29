@@ -1,7 +1,7 @@
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/573142923044?text=Hola,%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20DiaMoreno."
+      href="https://wa.me/573142923044?text=Hola,%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20DíaMoreno."
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Contactar por WhatsApp"

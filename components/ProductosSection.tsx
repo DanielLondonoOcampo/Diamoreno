@@ -11,23 +11,23 @@ const productos = [
   {
     img: '/images/producto-mezcla.jpg',
     nombre: 'Mezcla de frutas',
-    descripcion: 'Fresa, manzana, mango, higo y más. Mezcla conceptual de autor con frutas amarillas y rojas seleccionadas.',
+    descripcion: 'Fresa, manzana, mango, piña y más. Mezcla conceptual de autor con frutas amarillas y rojas seleccionadas.',
     tag: 'El más popular',
-    waHref: 'https://wa.me/573142923044?text=Hola,%20me%20interesa%20la%20Mezcla%20de%20frutas%20deshidratada%20DiaMoreno.%20%C2%BFQu%C3%A9%20presentaciones%20tienen%20disponibles%3F',
+    waHref: 'https://wa.me/573142923044?text=Hola,%20me%20interesa%20la%20Mezcla%20de%20frutas%20deshidratada%20DíaMoreno.%20%C2%BFQu%C3%A9%20presentaciones%20tienen%20disponibles%3F',
   },
   {
     img: '/images/producto-mango.jpg',
     nombre: 'Mango deshidratado',
     descripcion: 'Rebanadas de mango Tommy seleccionadas en su punto exacto de maduración. Sabor concentrado, sin añadidos.',
     tag: 'Clásico',
-    waHref: 'https://wa.me/573142923044?text=Hola,%20me%20interesa%20el%20Mango%20deshidratado%20DiaMoreno.%20%C2%BFQu%C3%A9%20presentaciones%20tienen%20disponibles%3F',
+    waHref: 'https://wa.me/573142923044?text=Hola,%20me%20interesa%20el%20Mango%20deshidratado%20DíaMoreno.%20%C2%BFQu%C3%A9%20presentaciones%20tienen%20disponibles%3F',
   },
   {
     img: '/images/producto-citricos.jpg',
     nombre: 'Cítricos deshidratados',
-    descripcion: 'Rodajas de naranja y limón. Perfectas para decorar, infusionar o snackear.',
+    descripcion: 'Rodajas de naranja y limón. Perfectas para decoraciones, infusiones y snacks.',
     tag: 'Especial',
-    waHref: 'https://wa.me/573142923044?text=Hola,%20me%20interesan%20los%20C%C3%ADtricos%20deshidratados%20DiaMoreno.%20%C2%BFQu%C3%A9%20presentaciones%20tienen%20disponibles%3F',
+    waHref: 'https://wa.me/573142923044?text=Hola,%20me%20interesan%20los%20C%C3%ADtricos%20deshidratados%20DíaMoreno.%20%C2%BFQu%C3%A9%20presentaciones%20tienen%20disponibles%3F',
   },
 ]
 
@@ -91,7 +91,7 @@ export default function ProductosSection() {
           <div className="absolute inset-0">
             <Image
               src="/images/servido-plato.jpg"
-              alt="Fruta deshidratada DiaMoreno servida"
+              alt="Fruta deshidratada DíaMoreno servida"
               fill
               className="object-cover object-center opacity-30"
               sizes="100vw"
@@ -101,12 +101,12 @@ export default function ProductosSection() {
             <div className="text-white max-w-lg">
               <h3 className="font-display text-3xl md:text-4xl mb-3">Versátil y delicioso</h3>
               <p className="font-sans text-white/80 leading-relaxed">
-                Úsalos en yogur, avena, ensaladas, postres o simplemente solos. La textura crujiente y
+                Úsalos en yogurt, avena, ensaladas, postres, cockteles, bebidas calientes o en cualquiera de tus preparaciones creativas. La textura crujiente y
                 el sabor concentrado hacen que cada bocado sea especial.
               </p>
             </div>
             <a
-              href="https://wa.me/573142923044?text=Hola,%20quiero%20pedir%20fruta%20deshidratada%20DiaMoreno%20para%20usar%20en%20mis%20recetas.%20%C2%BFQu%C3%A9%20opciones%20tienen%3F"
+              href="https://wa.me/573142923044?text=Hola,%20quiero%20pedir%20fruta%20deshidratada%20DíaMoreno%20para%20usar%20en%20mis%20recetas.%20%C2%BFQu%C3%A9%20opciones%20tienen%3F"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-shrink-0 inline-flex items-center gap-2 bg-brand-gold hover:bg-brand-gold-light text-white font-sans font-semibold px-7 py-3.5 rounded-full transition-all duration-200 shadow-lg"

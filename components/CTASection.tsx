@@ -28,7 +28,7 @@ export default function CTASection() {
           Escríbenos por WhatsApp y recibe tu pedido directo. Disponible en todo el país.
         </p>
         <a
-          href="https://wa.me/573142923044?text=Hola,%20estoy%20listo%20para%20hacer%20mi%20pedido%20de%20DiaMoreno.%20%C2%BFMe%20pueden%20ayudar%20con%20los%20detalles%3F"
+          href="https://wa.me/573142923044?text=Hola,%20estoy%20listo%20para%20hacer%20mi%20pedido%20de%20DíaMoreno.%20%C2%BFMe%20pueden%20ayudar%20con%20los%20detalles%3F"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 bg-brand-gold hover:bg-brand-gold-light text-white font-sans font-bold text-lg px-10 py-4 rounded-full transition-all duration-200 shadow-xl hover:shadow-2xl hover:-translate-y-1"

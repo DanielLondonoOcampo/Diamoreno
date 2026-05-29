@@ -37,7 +37,7 @@ export default function Navbar() {
         <button onClick={() => handleNav('#inicio')} className="flex items-center gap-2 flex-shrink-0">
           <Image
             src="/images/logo.png"
-            alt="DiaMoreno Deshidratados"
+            alt="DíaMoreno Deshidratados"
             width={170}
             height={64}
             className="object-contain h-12 w-auto"
@@ -63,7 +63,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="https://wa.me/573142923044?text=Hola,%20quiero%20pedir%20fruta%20deshidratada%20DiaMoreno.%20%C2%BFMe%20pueden%20ayudar%3F"
+          href="https://wa.me/573142923044?text=Hola,%20quiero%20pedir%20fruta%20deshidratada%20DíaMoreno.%20%C2%BFMe%20pueden%20ayudar%3F"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-flex items-center gap-2 bg-brand-gold hover:bg-brand-gold-light text-white font-sans font-semibold text-sm px-5 py-2 rounded-full transition-all duration-200 shadow hover:shadow-md"
@@ -101,7 +101,7 @@ export default function Navbar() {
             </button>
           ))}
           <a
-            href="https://wa.me/573142923044?text=Hola,%20quiero%20pedir%20fruta%20deshidratada%20DiaMoreno.%20%C2%BFMe%20pueden%20ayudar%3F"
+            href="https://wa.me/573142923044?text=Hola,%20quiero%20pedir%20fruta%20deshidratada%20DíaMoreno.%20%C2%BFMe%20pueden%20ayudar%3F"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary justify-center mt-2"

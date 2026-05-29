@@ -24,7 +24,7 @@ const pillars = [
       </svg>
     ),
     title: 'Rico en fibra',
-    desc: 'Concentrado natural de vitaminas, minerales y fibra dietaria. Energía real, sin rellenos ni fruta de descarte.',
+    desc: 'Concentrado natural de vitaminas, minerales y fibra. Energía real para un tracto digestivo más sano.',
   },
   {
     icon: (
@@ -43,9 +43,9 @@ export default function ValorSection() {
     <section className="bg-brand-cream-dark py-20 md:py-24">
       <div className="max-w-6xl mx-auto px-5">
         <div className="text-center mb-14">
-          <h2 className="section-title mb-3">¿Por qué DiaMoreno?</h2>
+          <h2 className="section-title mb-3">¿Por qué DíaMoreno?</h2>
           <p className="section-subtitle max-w-xl mx-auto">
-            El snack que respeta tu salud y el sabor auténtico de la fruta colombiana.
+            El snack que cuida tu salud y respeta el sabor auténtico de la fruta colombiana.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ export default function ValorSection() {
             {[
               'Notificación INVIMA',
               'Sello Negocio Verde · Cornare',
-              'Sello Oriente Región que Enamora',
+              'Sello Oriente Región que Enamora - CCOA',
               'Ganadora Fondo Emprender 2025',
               'Incentivo Cornare · Alcaldía El Peñol',
             ].map((cert) => (

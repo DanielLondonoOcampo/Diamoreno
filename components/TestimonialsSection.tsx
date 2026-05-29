@@ -67,7 +67,7 @@ export default function TestimonialsSection() {
       <div className="max-w-5xl mx-auto px-5">
         <div className="text-center mb-14">
           <h2 className="section-title mb-3">Clientes satisfechos</h2>
-          <p className="section-subtitle">Lo que dicen quienes ya disfrutan DiaMoreno.</p>
+          <p className="section-subtitle">Lo que dicen quienes ya disfrutan DíaMoreno.</p>
         </div>
 
         {/* Carousel */}

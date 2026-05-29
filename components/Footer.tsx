@@ -16,7 +16,7 @@ export default function Footer() {
         <div>
           <Image
             src="/images/logo.png"
-            alt="DiaMoreno Deshidratados"
+            alt="DíaMoreno Deshidratados"
             width={140}
             height={52}
             className="h-12 w-auto object-contain mb-4"
@@ -48,7 +48,7 @@ export default function Footer() {
           <h4 className="font-display text-white text-lg mb-4">Contacto</h4>
           <div className="flex flex-col gap-3 font-sans text-sm">
             <a
-              href="https://wa.me/573142923044?text=Hola,%20quisiera%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20DiaMoreno."
+              href="https://wa.me/573142923044?text=Hola,%20quisiera%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20DíaMoreno."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-brand-gold transition-colors duration-200"
@@ -65,7 +65,7 @@ export default function Footer() {
 
       <div className="border-t border-white/10">
         <div className="max-w-6xl mx-auto px-5 py-5 flex flex-col md:flex-row items-center justify-between gap-2 text-xs font-sans text-white/40">
-          <span>© {new Date().getFullYear()} DiaMoreno Deshidratados. Todos los derechos reservados.</span>
+          <span>© {new Date().getFullYear()} DíaMoreno Deshidratados. Todos los derechos reservados.</span>
           <span>Hecho con ❤ en Colombia</span>
         </div>
       </div>
