@@ -5,6 +5,7 @@ node_modules/
 .next/
 out/
 fix/
+logos/
 # Misc
 .DS_Store
 *.pem
